@@ -1,0 +1,5 @@
+<%= form_tag('players/grab_player', :method => "get") do %>
+    <%= label_tag(:player_num, "Search for:") %>
+    <%= text_field_tag(:player_num) %>
+    <%= submit_tag("Search") %>
+<% end %>
